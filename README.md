@@ -27,3 +27,7 @@ Various snippets of Go code
 - <https://golang.org/doc/code.html>
 - <https://medium.com/appsflyer/my-journey-from-python-to-go-3859783c6b3c>
 - <https://www.dotnetperls.com/>
+
+## Useful links
+
+- [Go standard library](https://golang.org/pkg/)
