@@ -4,7 +4,11 @@ Various snippets of Go code
 
 ## Install Go
 
-`brew install go`
+`brew install go` or grab a binary for your OS [here](https://golang.org/dl/)
+
+## Read docs
+
+[A short read (I promise), walking you through a "Hello, World!" example.](https://golang.org/doc/tutorial/getting-started)
 
 ## Run a snippet
 
