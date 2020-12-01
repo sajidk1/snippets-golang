@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 
+	// Slices aka Lists in other languages
+	
 	// Create an empty slice of slices.
 	animals := [][]string{}
 
