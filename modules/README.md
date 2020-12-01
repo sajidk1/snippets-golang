@@ -4,7 +4,10 @@
 
 Initialise the module:
 
-`go mod init hello`
+```sh
+cd hello
+go mod init hello
+```
 
 This creates a `go.mod` file.
 
