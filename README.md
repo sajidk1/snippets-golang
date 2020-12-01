@@ -1,6 +1,6 @@
 # snippets-golang
 
-This repo contains various snippets of Go code (`./snippets`) and an example Go application repo (`main.go`, `modules`, `go.mod`, `go.sum`)
+This repo contains various snippets of Go code (`./snippets`) and serves as an example Go application repo (`main.go`, `modules`, `go.mod`, `go.sum`)
 
 ## Install Go
 
