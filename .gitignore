@@ -15,3 +15,4 @@
 # vendor/
 snippets/file.txt
 .DS_Store
+snippets-golang

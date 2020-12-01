@@ -1,6 +1,6 @@
 # snippets-golang
 
-Various snippets of Go code
+This repo contains various snippets of Go code (`./snippets`) and an example Go application repo (`main.go`, `modules`, `go.mod`, `go.sum`)
 
 ## Install Go
 
@@ -16,6 +16,25 @@ Various snippets of Go code
 cd snippets
 go run hello_world.go
 ```
+
+## Run the main program
+
+In the root of the repo
+
+`go run main.go`
+
+## Build the main program i.e. create a binary
+
+In the root of the repo
+
+`go build`
+
+## Test functions
+
+```sh
+cd modules/greetings
+go test -v
+``` 
 
 ## Format all code
 
