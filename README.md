@@ -34,3 +34,48 @@ go run hello_world.go
 ## Useful links
 
 - [Go standard library](https://golang.org/pkg/)
+
+# Modules
+
+> How todo dependency management in Go
+
+Initialise the module (run this at the root of a repo):
+
+```sh
+go mod init github.com/sajid-khan-js/snippets-golang
+```
+
+This creates a `go.mod` file.
+
+Next time you run your code, you'll get:
+
+```sh
+❯ go run main.go  
+go: finding module for package rsc.io/quote
+go: found rsc.io/quote in rsc.io/quote v1.5.2
+...
+```
+
+This updates the `go.mod` file with any dependencies (i.e. anything listed under
+`import` in your code that isn't a standard package). It also creates a `go.sum`
+file which contain cryptographic checksums of the content of specific module
+versions.
+
+Both `go.mod` and `go.sum` should be checked into Git alongside your code
+
+## Using local packages
+
+- Create a new folder called `greetings` in `./modules`
+  - Create a file called `greetings.go` in the new directory
+  - Add the line `package greetings`
+
+- To import that package into another program:
+  - import `"github.com/sajid-khan-js/snippets-golang/modules/greetings"`
+    - :memo: Your new package needs to be pushed to your Git repository for this to work
+  - or in your `go.mod` file you can reference a local copy:
+    - replace `github.com/sajid-khan-js/snippets-golang/modules/greetings => ./modules/greetings`
+
+## Further reading
+
+- [Using Go modules](https://blog.golang.org/using-go-modules)
+- [Creating Go modules](https://golang.org/doc/tutorial/create-module)
