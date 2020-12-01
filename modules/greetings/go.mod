@@ -1,3 +1,3 @@
-module github.com/sajid-khan-js/snippets-golang/modules/greetings
+module greetings
 
 go 1.15
