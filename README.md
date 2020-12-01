@@ -12,7 +12,10 @@ Various snippets of Go code
 
 ## Run a snippet
 
-`go run hello_world.go`
+```sh
+cd snippets
+go run hello_world.go
+```
 
 ## Format all code
 
