@@ -1,9 +1,9 @@
 package main
 
 import (
-    "fmt"
-    "log"
+	"fmt"
 	"github.com/sajid-khan-js/snippets-golang/modules/greetings"
+	"log"
 	"rsc.io/quote"
 )
 
@@ -18,10 +18,10 @@ func main() {
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 
-    // A slice of names.
+	// A slice of names.
 	names := []string{"Sajid", "Bob", "Alice"}
-	
-    // Request greeting messages for the names.
+
+	// Request greeting messages for the names.
 	messages, err := greetings.Hellos(names)
 	// If an error was returned, print it to the console and
 	// exit the program.
@@ -32,4 +32,5 @@ func main() {
 	// If no error was returned, print the returned message
 	// to the console.
 	fmt.Println(messages)
+
 }
