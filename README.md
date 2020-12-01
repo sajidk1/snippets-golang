@@ -71,7 +71,7 @@ Both `go.mod` and `go.sum` should be checked into Git alongside your code
 
 - To import that package into another program:
   - import `"github.com/sajid-khan-js/snippets-golang/modules/greetings"`
-    - :memo: Your new package needs to be pushed to your Git repository for this to work
+    - :memo: Your module (i.e. the root `go.mod`) needs to be pushed to your Git repository for this to work
   - or in your `go.mod` file you can reference a local copy:
     - replace `github.com/sajid-khan-js/snippets-golang/modules/greetings => ./modules/greetings`
 
