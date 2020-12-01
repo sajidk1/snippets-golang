@@ -26,6 +26,22 @@ versions.
 
 Both `go.mod` and `go.sum` should be checked into Git alongside your code
 
+## Using local modules
+
+See `./greetings` as an example.
+
+- Create a new folder in `./modules`
+
+- Run `go mod init <folder name>`
+
+- You can't use `package main` anywhere in that directory rather `package <folder name>`
+
+- To import that module into another program:
+  - import `"github.com/sajid-khan-js/snippets-golang/modules/<folder name>"` - This will require it to be checked into Git
+  - or in your `go.mod` file you can reference a local copy:
+    - replace `github.com/sajid-khan-js/snippets-golang/modules/<folder name> => ../<folder name>`
+
 ## Further reading
 
 - [Using Go modules](https://blog.golang.org/using-go-modules)
+- [Creating Go modules](https://golang.org/doc/tutorial/create-module)
