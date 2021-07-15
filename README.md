@@ -47,10 +47,11 @@ go test -v
 - <https://golang.org/doc/tutorial/>
 - <https://tour.golang.org/list>
 - <https://gowebexamples.com/>
-- <https://golang.org/doc/effective_go#introduction>
+- <https://golang.org/doc/effective_go#introduction> - Go best practices
 - <https://golang.org/doc/code.html>
 - <https://medium.com/appsflyer/my-journey-from-python-to-go-3859783c6b3c>
 - <https://www.dotnetperls.com/>
+- <https://www.one-tab.com/page/SIUmuC-BR2StIaxHdNX5Rw> - Linters and pre-commit
 
 ## Useful links
 
