@@ -46,6 +46,8 @@ go test -v
 - <https://www.youtube.com/watch?v=C8LgvuEBraI&feature=youtu.be>
 - <https://golang.org/doc/tutorial/>
 - <https://tour.golang.org/list>
+- <https://gowebexamples.com/>
+- <https://golang.org/doc/effective_go#introduction>
 - <https://golang.org/doc/code.html>
 - <https://medium.com/appsflyer/my-journey-from-python-to-go-3859783c6b3c>
 - <https://www.dotnetperls.com/>
